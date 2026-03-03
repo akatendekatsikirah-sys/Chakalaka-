@@ -28,6 +28,16 @@ header p {
   font-size: 18px;
 }
 
+/* PROFILE IMAGE */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #fff;
+}
+
 /* SECTIONS */
 section {
   padding: 40px 20px;
@@ -42,24 +52,24 @@ section h2 {
   color: #000;
 }
 
-/* ABOUT / CONTENT */
 section p {
   text-align: center;
   font-size: 16px;
 }
 
-/* LISTS (Academics / Experience) */
-ul {
-  list-style: none;
-  margin-top: 20px;
+/* CENTER ALIGN UTILITY */
+.center {
+  text-align: center;
 }
 
-ul li {
+/* CARD STYLING */
+.card {
   background: #fff;
   margin: 10px 0;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 /* DOWNLOAD SECTION */
@@ -133,4 +143,9 @@ footer a:hover {
   section {
     padding: 20px;
   }
-                             }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+}
